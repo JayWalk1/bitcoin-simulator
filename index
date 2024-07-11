@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Journey Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Journey Simulator</h1>
+        <div class="simulator">
+            <label for="investment">Investment Amount ($):</label>
+            <input type="number" id="investment" placeholder="Enter amount">
+            <button onclick="startSimulation()">Start Simulation</button>
+        </div>
+        <div class="results">
+            <h2>Simulation Results</h2>
+            <p id="initial-investment"></p>
+            <p id="final-value"></p>
+        </div>
+        <div class="tips">
+            <h2>Educational Tips</h2>
+            <p id="tip"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
